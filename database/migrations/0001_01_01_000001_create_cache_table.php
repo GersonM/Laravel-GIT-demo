@@ -24,9 +24,7 @@ return new class extends Migration
         });
     }
 
-    /**
-     * Reverse the migrations.
-     */
+    // Método que ejecutarà cuando se revierte la migración
     public function down(): void
     {
         Schema::dropIfExists('cache');
